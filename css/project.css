@@ -27,19 +27,19 @@ p {
   font-weight: normal;
 }
 
-.project {
+.hero {
   background-color: var(--secondary-color);
   text-align: center;
   padding: 160px 20px;
 }
-.project p {
+.hero p {
   font-weight: 700;
   font-size: 36px;
   margin: 0;
   color: #272142;
 }
 
-.project h2 {
+.hero h2 {
   font-family: var(--heading-font-family);
   font-weight: 400;
   font-size: 24px;
