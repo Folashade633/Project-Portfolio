@@ -38,7 +38,6 @@ p {
   background-color: var(--secondary-color);
   text-align: center;
   padding: 160px 20px;
-  line-height: 1.5;
 }
 .hero p {
   font-weight: 700;
@@ -91,5 +90,5 @@ btn-branding-outline {
   .project-description {
     padding: 0;
     text-align: center;
-  
+  }
 }
