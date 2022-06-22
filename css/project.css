@@ -21,6 +21,7 @@ h6 {
 
 h1 {
   font-size: 96px;
+  line-height: 1.5;
 }
 
 h2 {
@@ -37,6 +38,7 @@ p {
   background-color: var(--secondary-color);
   text-align: center;
   padding: 160px 20px;
+  line-height: 1.5;
 }
 .hero p {
   font-weight: 700;
@@ -69,4 +71,25 @@ btn-branding-outline {
   font-size: 18px;
   font-weight: 500;
   line-height: 27px;
+}
+
+.project-description {
+  padding: 120px 60px;
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 45px;
+  }
+  h2 {
+    font-size: 44px;
+  }
+
+  .hero {
+    padding: 100px 20px;
+  }
+  .project-description {
+    padding: 0;
+    text-align: center;
+  
 }
