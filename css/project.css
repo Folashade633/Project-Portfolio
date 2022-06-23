@@ -176,14 +176,14 @@ nav {
 }
 
 nav a {
-  color: var(--primary-color);
+  color: var(--secondary-color);
   text-decoration: none;
   transition: all 100ms ease-in-out;
 }
 
 nav a:hover,
 nav li.active {
-  color: var(a--btn-color);
+  color: var(a--btn-branding-color);
 }
 
 nav li {
