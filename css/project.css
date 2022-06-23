@@ -6,6 +6,12 @@
 }
 body {
   font-family: var(--default-font-family);
+  background: linear-gradient(
+    109.6deg,
+    rgb(36, 45, 57) 11.2%,
+    rgb(16, 37, 60) 51.2%,
+    rgb(0, 0, 0) 98.6%
+  );
 }
 
 h1,
@@ -14,7 +20,6 @@ h3,
 h4,
 h5,
 h6 {
-  color: black;
   font-family: var(--heading-font-family);
   font-weight: bold;
 }
@@ -26,12 +31,18 @@ h1 {
 
 h2 {
   font-size: 64px;
+  color: var(--secondary-color);
+}
+h3 {
+  color: var(--secondary-color);
 }
 
 p {
+  color: var(--secondary-color);
   font-weight: normal;
   font-size: 16px;
   line-height: 30px;
+  opacity: 0.5;
 }
 
 .hero {
@@ -40,7 +51,6 @@ p {
   padding: 160px 20px;
 }
 .hero p {
-  color: #272142;
   font-weight: 700;
   font-size: 36px;
   margin: 0;
@@ -52,6 +62,36 @@ p {
   font-size: 24px;
   line-height: 2;
 }
+
+.content-container {
+  padding: 60px 20px;
+}
+
+.content h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+
+.content h2 {
+  font-size: 18px;
+}
+
+.content h3 {
+  color: var(--secondar-color);
+  font-family: Vibes, serif;
+  font-size: 24px;
+  line-height: 1.5;
+  margin: 20px 0 0;
+}
+
+.content p {
+  font-size: 18px;
+}
+
+.content {
+  margin: 30px;
+}
+
 .btn-branding {
   background: var(--branding-color);
   color: #ffff;
@@ -83,6 +123,9 @@ p {
   h2 {
     font-size: 44px;
   }
+  h3 {
+    font-size: 26px;
+  }
 
   .hero {
     padding: 100px 20px;
@@ -91,4 +134,47 @@ p {
     padding: 0;
     text-align: center;
   }
+}
+footer {
+  margin: 60px 0;
+}
+
+footer .contact-box {
+  background: var (--secondary-color);
+  border-radius: 10px;
+  padding: 30px 120px;
+}
+
+footer .email-link {
+  color: var(--secondary-color);
+  font-size: 24px;
+  text-decoration: none;
+}
+
+footer .email-link:hover {
+  color: var(--primary-color);
+}
+
+footer .social-links a {
+  background: var(--primary-color);
+  border-radius: 50px;
+  color: var(--third-color);
+  font-size: 18px;
+  padding: 10px 14px;
+  margin: 0 20px;
+  transition: all 100ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  background: var(--third-color);
+  color: var(--primary-color);
+}
+
+footer p {
+  margin: 0;
+  opacity: 0.5;
+}
+
+.source-code {
+  color: var(--secondary-color);
 }
