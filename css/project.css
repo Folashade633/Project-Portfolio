@@ -19,20 +19,16 @@ h5,
 h6 {
   font-family: var(--heading-font-family);
   font-weight: bold;
+  color: var(--secondary-color);
 }
 
 h1 {
   font-size: 90px;
   line-height: 1.5;
-  color: var(--secondary-color);
 }
 
 h2 {
   font-size: 64px;
-  color: var(--secondary-color);
-}
-h3 {
-  color: var(--secondary-color);
 }
 
 p {
