@@ -31,6 +31,10 @@ h2 {
   font-size: 64px;
 }
 
+h4 {
+  font-size: 48px;
+}
+
 p {
   color: var(--secondary-color);
   font-weight: normal;
@@ -147,7 +151,7 @@ nav li.active {
     font-size: 44px;
   }
   h3 {
-    font-size: 26px;
+    font-size: 28px;
   }
 
   .hero {
@@ -169,34 +173,28 @@ nav li.active {
   }
 }
 
-.blessed {
-  max-width: 100px;
-  max-height: 60px;
-}
-
 footer {
   margin: 60px 0;
 }
-
 .contact-box {
   border-radius: 10px;
   padding: 30px 120px;
 }
 
 .email-link {
-  color: var(--branding-color);
+  color: var(--secondary-color);
   font-size: 24px;
   text-decoration: none;
 }
 
 .email-link:hover {
-  color: var(--secondary-color);
+  color: var(--branding-color);
 }
 
 .social-links a {
   background: var(--secondary-color);
-  border-radius: 50px;
-  color: var(--third-color);
+  border-radius: 50%;
+  color: var(--branding-color);
   font-size: 18px;
   padding: 10px 14px;
   margin: 0 20px;
