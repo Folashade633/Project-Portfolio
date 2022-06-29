@@ -146,6 +146,9 @@ nav li.active {
   max-width: 100%;
   height: auto;
 }
+.land-page {
+  border-radius: 10px;
+}
 
 footer {
   margin: 60px 0;
